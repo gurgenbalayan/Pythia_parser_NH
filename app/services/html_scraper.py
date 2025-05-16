@@ -143,7 +143,7 @@ async def parse_html_search(html: str) -> List[Dict[str, Optional[str]]]:
             "state": STATE,
             "name": name,
             "id": id_,
-            "link": "https://quickstart.sos.nh.gov" + link,
+            "url": "https://quickstart.sos.nh.gov" + link,
             "status": status
         })
 
